@@ -1,0 +1,8 @@
+algo = input('Digote algo: ')
+print('Qual é o Tipo primitivo desse valor:',type(algo))
+print('É composto por números?',algo.isnumeric())
+print('É composta por letras? ',algo.isalpha())
+print('É composto por letras ou números? ',algo.isalnum())
+print('É composto somente por letras maiúsculas? ',algo.isupper())
+print('É composto por somente espaços? ',algo.isspace())
+print('É composto somente por letras minúsculas? ',algo.islower())
