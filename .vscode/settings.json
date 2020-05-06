@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\sosma\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+    "python.pythonPath": "C:\\Users\\sosma\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "totvsLanguageServer.welcomePage": false,
+    "totvsLanguageServer.askEncodingChange": true
 }
