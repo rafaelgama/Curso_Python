@@ -26,9 +26,6 @@ print(f'{"VALORES CALCULADOS":=^40}')
 for k, v in dado.items():
     print(f'- {k} tem o valor {v}')
 
-
-
-
 print('')
 print('-=-'*10)
 print(cores['pretoebranco']+'______FIM_______'+cores['limpa'])
