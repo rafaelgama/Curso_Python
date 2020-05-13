@@ -23,7 +23,6 @@ c = float(input('COMPRIMENTO: (m)'))
 area(l,c)
 
 
-
 print('')
 print('-=-'*10)
 print(cores['pretoebranco']+'______FIM_______'+cores['limpa'])
