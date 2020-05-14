@@ -68,7 +68,6 @@ def notas2(* n, sit=False):
 
     return notas
 
-
 # programa principal
 resp = notas(5.5, 2.5, 1.5, 10, sit=True)
 print(resp)
