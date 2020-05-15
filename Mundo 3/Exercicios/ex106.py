@@ -40,7 +40,6 @@ while True:
         ajuda(comando)
 titulo('ATÉ LOGO!')        
 
-
 print()
 print('-=-'*10)
 print(cores['pretoebranco']+'______FIM_______'+cores['limpa'])
