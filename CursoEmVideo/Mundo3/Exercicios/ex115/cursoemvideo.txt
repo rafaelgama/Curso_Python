@@ -1,0 +1,4 @@
+Rafael;39
+Gama;30
+Macedo;45
+Ana;20
