@@ -1,4 +1,2 @@
-Rafael;39
+Rafael;40
 Gama;30
-Macedo;45
-Ana;20
