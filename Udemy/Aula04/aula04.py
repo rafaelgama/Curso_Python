@@ -16,15 +16,15 @@ print(10==10, type(10==10))
 print('Luiz', type('Luiz'), bool('Luiz'))
 print('10', type('10'), type(int('10')) )
 
-# string nome
+# string - nome
 nome =str(input('Nome: '))
 print(f'{nome}', type(nome))
 
-# int idade
+# int - idade
 idade = int(input("Idade: "))
 print(f'{idade}', type(idade))
 
-# Float Altura
+# Float - Altura
 altura = float(input('Altura: '))
 print(f'{altura} ', type(altura))
 
