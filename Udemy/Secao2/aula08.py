@@ -15,3 +15,4 @@ imc = peso / altura ** 2
 print(f'{nome} tem {idade} anos de idade e sua altura é {altura:.2F}.')
 print(f'{nome} pesa {peso} e seu imc é de {imc:.2f}.')
 print(f'{nome} nasceu em {nascimento}.')
+
