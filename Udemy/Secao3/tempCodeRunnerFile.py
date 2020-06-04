@@ -1,2 +1,5 @@
+import os
 
-s1.add(2)
+thisdir = os.getcwd() # busca o diretório raiz do projeto
+
+print(thisdir)
