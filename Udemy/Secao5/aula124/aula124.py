@@ -3,18 +3,22 @@
 
 import os
 
-#'C:\Temp\Formula de Lançamento 7.0 - 2018\Ferramentas'
-caminho_procura = input('Digite um caminho: ')
-termo_procura = input('Digite um termo: ')
+# Para uso em Windows, sempre colocar a letra 'r' no começo do endereço com
+# com barra "\" para não ter problemas e acabar executando um função por causa da barra invertida.
 
-# função para converter os valores com origem em bytes
+caminho_procura = r'C:\Temp\Formula de Lançamento 7.0 - 2018\Ferramentas'
+termo_procura = ''
+#caminho_procura = input('Digite um caminho: ')
+#termo_procura = input('Digite um termo: ')
+
+# função para converter os valores com origem em bytes em base 1024
 def formata_tamanho(tamanho):
     base = 1024
     kilo = base
-    mega = base ** 2
-    giga = base ** 3
-    tera = base ** 4
-    peta = base ** 5
+    mega = base ** 2 # mega = 1048576
+    giga = base ** 3 # giga = 1073741824
+    tera = base ** 4 # tera = 1099511627776
+    peta = base ** 5 # peta = 1125899906842624
 
     if tamanho < kilo:        
         texto = 'B'
@@ -51,7 +55,7 @@ for raiz, diretorios, arquivos in os.walk(caminho_procura):
                 print('Caminho completo:', caminho_completo)
                 print('Nome:', arquivo)
                 print('Extensão:', ext_arquivo)
-                print('Tamanho:', formata_tamanho(tamanho))
+                print('Tamanho:', formata_tamanho(tamanho),'ou',tamanho,'bytes')
             except PermissionError as e:
                 print('Sem permissões')
             except FileNotFoundError as e:
